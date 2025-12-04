@@ -14,10 +14,6 @@ main {
   text-align: center;
 }
 
-#quote {
-  font-size: 45px;
-}
-
 .container {
   margin: 120px auto;
   max-width: 800px;
@@ -27,29 +23,14 @@ h1 {
   font-weight: 800;
   font-size: 64px;
   line-height: 1;
-}
-
-h2 {
-  font-size: 56px;
-}
-.first-color {
   color: #8b3c3c;
   text-align: center;
 }
 
-.second-color {
+h2 {
+  font-size: 56px;
   color: #eaceb4;
   text-align: center;
-}
-
-.third-color {
-  color: #e79e85;
-  text-align: center;
-}
-
-.fourth-color {
-  color: #bb5a5a;
-  text-align: left;
 }
 
 .instructions {
@@ -72,10 +53,6 @@ h2 {
   border-radius: 50px;
 }
 
-a {
-  color: #e79e85;
-}
-
 .hint {
   text-decoration: underline 10px solid #eaceb4;
   font-size: 15px;
@@ -86,4 +63,19 @@ a {
   text-align: center;
   margin: 0px 0 25px 0;
   display: block;
+}
+
+#quote {
+  font-size: 45px;
+  color: #e79e85;
+  text-align: center;
+}
+
+footer {
+  color: #bb5a5a;
+  text-align: left;
+}
+
+a {
+  color: #e79e85;
 }
