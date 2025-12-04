@@ -16,11 +16,6 @@ function generateQuote(event) {
   let context =
     "You are an inspirational quote expert and love to motivate people with short quotes. Make sure to follow the user instructions. Add a line break before you sign the quote with `SJ \uD83D\uDC9B AI` inside a <strong> element";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
-
-  console.log("test 1");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayQuote);
 }
 
